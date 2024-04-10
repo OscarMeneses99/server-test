@@ -70,6 +70,12 @@ const movies = [
       "Musical",
     ],
   },
+  {
+    titulo: "Spiderman",
+    anio_estreno: 2000,
+    recaudacion_mundial: "$2,000,000,000",
+    genero: ["Accion"],
+  },
 ];
 
 app.get("/api/peliculas", (req, res) => {
